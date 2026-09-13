@@ -1,0 +1,58 @@
+# ==========================================================
+# 🔒 BROTHER HUB - PROTECTED GITIGNORE
+# ONLY OBFUSCATED & PRODUCTION BUILDS ALLOWED ON GITHUB
+# ==========================================================
+
+# 🚫 RAW & ORIGINAL SOURCE CODE (NEVER UPLOAD!)
+Clean/
+CleanHub/
+PrawiraHub.txt
+BrotherHub.txt
+BrotherHub_original.lua
+*_original.lua
+*_obfuscated.lua
+*_Clean.lua
+FlowerHub_Clean.lua
+DigIntoSecrets_Clean.lua
+DigIntroSecrets/
+Fish an Anime rng.lua
+*.txt
+*.zip
+*.bat
+RIWAYAT_CHAT_FULL.md
+README.md
+*.jpg
+*.png
+*.webp
+
+# 🚫 PROPRIETARY OBFUSCATOR & BUILD SCRIPTS
+obfuscate.py
+obfuscate.bat
+build.bat
+build.ps1
+test.bat
+push_to_github.bat
+
+# 🚫 INTERNAL AGENT, TOOLS & WORKFLOWS (100% LOCAL ONLY)
+tools/
+.github/
+AGENTS.md
+.agents/
+.vscode/
+bin/
+sourcemap.json
+default.project.json
+
+# 🚫 ENVIRONMENT & SECRETS
+.env*
+config.private.json
+
+# 🚫 PYTHON & TEMP ARTIFACTS
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+scratch/
+_chat_history_migration/
+logs/
+Thumbs.db
