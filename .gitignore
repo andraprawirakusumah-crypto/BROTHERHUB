@@ -24,6 +24,11 @@ README.md
 *.jpg
 *.png
 *.webp
+*.rbxmx
+Procfile
+discloud.config
+main.py
+*.vbs
 
 # 🚫 PROPRIETARY OBFUSCATOR & BUILD SCRIPTS
 obfuscate.py
