@@ -251,12 +251,12 @@ local HUB_ROUTER = {
         Name = "Drill to Earth's Core",
         Match = function(pid, gid, gname)
             if pid == 101906032112547 or pid == 74507545904779 or gid == 9796898051 then return true end
-            if string.find(gname, "drill to earth") or string.find(gname, "earth's core") or string.find(gname, "earth") then return true end
+            if string.find(gname, "drill to earth") or string.find(gname, "earth's core") then return true end
             local rs = game:GetService("ReplicatedStorage")
-            if rs:FindFirstChild("Packages") and rs.Packages:FindFirstChild("Knit") then return true end
+            if rs:FindFirstChild("DrillService") or (rs:FindFirstChild("Packages") and rs.Packages:FindFirstChild("Knit") and rs:FindFirstChild("ToolService")) then return true end
             return false
         end,
-        CdnUrl = "https://files.catbox.moe/b9qy85.lua",
+        CdnUrl = "https://files.catbox.moe/uo9ya8.lua",
         GitHubUrl = "https://raw.githubusercontent.com/brotherhub-official/BROTHERHUB/main/DrillToEarth_BROTHERHUB.lua",
     },
     {
