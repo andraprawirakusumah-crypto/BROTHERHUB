@@ -256,7 +256,7 @@ local HUB_ROUTER = {
             if rs:FindFirstChild("DrillService") or (rs:FindFirstChild("Packages") and rs.Packages:FindFirstChild("Knit") and rs:FindFirstChild("ToolService")) then return true end
             return false
         end,
-        CdnUrl = "https://files.catbox.moe/uo9ya8.lua",
+        CdnUrl = "https://files.catbox.moe/1y0c0x.lua",
         GitHubUrl = "https://raw.githubusercontent.com/brotherhub-official/BROTHERHUB/main/DrillToEarth_BROTHERHUB.lua",
     },
     {
